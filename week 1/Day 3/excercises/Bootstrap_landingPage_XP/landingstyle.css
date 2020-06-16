@@ -14,33 +14,34 @@ body {
 .display-6 {
 	padding-top: 50px;
 }
-.form-control {
-	width: 400px;
-	position: static;
+.display-3 {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+	
+}
 
+.text {
+    color: black;
 }
-.form-group {
-	display: block;
-	padding-left: 400px;
 
+button {
+border: solid 2px black !important;
 }
-.btn {
-	margin-left: 100px;
-	color: white;
-}
-.btn-lg {
-	border: solid 2px black;
-	color: white;
 
+#divbutton {
+	position: flex;
+	padding-left: 35vw;
+}
 
 
-}
-.btn-info {
-	background-color: #333;
-	color: white;
-	margin: 0px;
-}
-#email {
-	color: white;
-	margin-left: 510px;
-}
+
+
+
+
+
+
+
+
+
+
