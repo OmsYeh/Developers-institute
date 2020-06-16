@@ -1,0 +1,46 @@
+body {
+	background-image: url(matt-hardy-6ArTTluciuA-unsplash.jpg);
+
+}
+.oms {
+	text-align: center;
+}
+.display-1 {
+	padding-top: 50px;
+}
+.display-4 {
+	margin-top: 0px;
+}
+.display-6 {
+	padding-top: 50px;
+}
+.form-control {
+	width: 400px;
+	position: static;
+
+}
+.form-group {
+	display: block;
+	padding-left: 400px;
+
+}
+.btn {
+	margin-left: 100px;
+	color: white;
+}
+.btn-lg {
+	border: solid 2px black;
+	color: white;
+
+
+
+}
+.btn-info {
+	background-color: #333;
+	color: white;
+	margin: 0px;
+}
+#email {
+	color: white;
+	margin-left: 510px;
+}
