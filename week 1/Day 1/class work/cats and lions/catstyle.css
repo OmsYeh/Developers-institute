@@ -1,0 +1,21 @@
+
+h1 {
+	border-bottom: solid gray 2px;
+}
+#lion {
+	border-bottom: solid gray 2px;
+}
+#dfrncbtwn {
+	text-align: center;
+}
+body {
+	display: flex;
+}
+
+#pt1, #pt2 {
+	width: 45vw;
+}
+
+#pt1 {
+	margin-right: 5vw;
+}
