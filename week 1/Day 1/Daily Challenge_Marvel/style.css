@@ -1,0 +1,54 @@
+body {
+	background-image: url(spider-man-ps4_0.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: helvetica;
+}
+h1 {
+	font-family: helvetica;
+	text-decoration: bold;
+	
+	letter-spacing: 5px;
+	color: #B11313;
+	text-decoration: underline;
+	
+	margin: 0px;
+}
+span {
+	background-color: rgba(68,123,190,0.8);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(68,123,190,0.8);
+}
+
+li a {
+  display: block;
+  color: #B11313;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0px;
+}
+
+li a:hover {
+  background-color: rgba(68,123,190,1);
+}
+ul {
+  position: fixed;
+  bottom: 0;
+  width: 20%;
+}
+footer {
+	text-align: right;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	color: #B11313;
+	margin: 0px;
+	background-color: #333;
+}
