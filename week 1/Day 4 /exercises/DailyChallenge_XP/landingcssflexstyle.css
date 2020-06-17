@@ -1,0 +1,15 @@
+body {
+	background-image: url(news-geography-total-footprint.png);
+	background-size: cover;	
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#maintxt {
+	text-align: center;
+	font-size: 40px;
+	font-family: Roboto;
+	color: #393e46;
+	font-weight: bold;
+	padding-top: 40px;
+}
