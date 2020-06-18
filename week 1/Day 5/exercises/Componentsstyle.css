@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 130vh;
+	font-family: roboto;
+}
+.navbar {
+	height: 8vh;
+	font-family: roboto;
+}
+.jumbotron {
+	margin-top: 8vh;
+	font-family: roboto;
+}
+#gridd {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	padding:50px;
+	justify-content: space-between;
+	font-family: roboto;
+	
+}
+.con {
+	width: 33%;
+	padding: 50px; 
+}
+.badge {
+	background-color: #585ED0;
+}
