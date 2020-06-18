@@ -1,0 +1,31 @@
+body {
+	background-image: url(photo-1535578195295-f2329b3cdb8d.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-family: roboto;
+	color: white;
+}
+h1 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10vh;
+}
+p {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
