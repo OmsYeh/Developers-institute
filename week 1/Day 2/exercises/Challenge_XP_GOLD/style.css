@@ -6,26 +6,15 @@ body {
 	font-family: roboto;
 	color: white;
 }
-h1 {
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	padding-top: 10vh;
+a {
+	color: white;
+	text-decoration: none;
 }
-p {
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-button {
+div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.button4 {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
+svg {
+	margin-left: 70px;
 }

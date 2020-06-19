@@ -1,0 +1,39 @@
+body {
+	background-image: url(photo-1535578195295-f2329b3cdb8d.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-family: roboto;
+	color: white;
+}
+div {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 20px;
+}
+a {
+	color: white;
+
+}
+input {
+	width: 50vw;
+	border-radius: 12px;
+}
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox;
+  display: inline-block;
+  width: auto;
+}
+label {
+	margin-bottom: 0px;
+
+}
+.nav-link {
+	padding:10px;
+}
+.box1 {
+	padding:10px;
+}
