@@ -1,0 +1,8 @@
+let details = {
+    phoneNumber: "03574847382",
+    address: "menachem begin",
+    level: 2,
+    rooms: ["bathroom", 'livingroom'],
+    married: true
+}
+--> Use a for loop to display the name of the rooms
