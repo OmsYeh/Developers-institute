@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+  </head>
+  <body>
+    <div class="calculator-grd">
+      <div class="output">
+        <div class="previous-operand"></div>
+        <div class="current-operand"></div>
+      </div>
+      <button id="AllClear" class="span-three">AC</button>
+      <button id="Delete" ">DEL</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(1);">1</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(2);">2</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(3);">3</button>
+      <button type="button" id="divide" name="button" onclick="javascript:my_f('/');">÷</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(4);">4</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(5);">5</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(6);">6</button>
+      <button type="button" id="add" name="button" onclick="javascript:my_f('+');">+</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(7);">7</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(8);">8</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(9);">9</button>
+      <button type="button" id="sub" name="button" onclick="javascript:my_f('-');">-</button>
+      <button type="button" class="num" name="button" onclick="javascript:my_f(0);">0</button>
+      <button type="button" id="eaqual" name="button" onclick="javascript:my_f('=');" class="span-two">=</button>
+      <button type="button" id="multip" name="button" onclick="javascript:my_f('*');">X</button>
+
+
+    </div>
+
+    <script src="calc.js" charset="utf-8"></script>
+  </body>
+</html>
