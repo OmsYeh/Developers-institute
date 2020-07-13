@@ -1,4 +1,0 @@
-let numbers = [10, 20, 30]
---> Use 3 differents for loops to add 5 to each number
---> console.log the Array
---> the result is :  [15, 25, 35]
