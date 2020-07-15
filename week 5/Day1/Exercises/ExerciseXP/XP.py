@@ -8,41 +8,73 @@ class Cat:
         self.name = name
         self.age = age
 
-
-main_cats = [
-    Cat("Corey", 3),
-    Cat("Charlie", 4),
-    Cat("Clyde", 1)
-]
-
-
-def oldest_cat():
-    cat_age = 0
-    for cat in main_cats:
-        if cat.age > cat_age:
-            cat_age = cat.age
-
-    print(f'The oldest cat is {cat_age} years old.')
+    @staticmethod
+    def oldest_cat(*cats):
+        oldest = 0
+        cats = list(cats)
+        for cat in cats:
+            if cat.age > oldest:
+                oldest = cat.age
+        return f'The Oldest cat is {oldest} years old'
 
 
-oldest_cat()
+my_cat = Cat("Corey", 1)
+gila_cat = Cat("Charlie", 7)
+tzios_cat = Cat("Niki", 8)
+
+Cat.oldest_cat(my_cat, gila_cat, tzios_cat)
 
 
 # Exercise 2
-# Create a class Dog
-# In this class, create a method __init__, that takes two parameters : nameDog
-and heightDog. This function initialises two attributes with the values of the parameters.
-# Create a method talk that prints Woof
-# Create a method jump that multiplies by two the height of the dog. Print the height of the dog when he jumps.
-# Create an object Davids_dog. His dog’s name is “Rex” and his height is 50cm.
-# Print the details of his dog by calling the methods.
-# Create an object Sarahs_dog. His dog’s name is “Teacup” and his height is 20cm.
-# Print the details of her dog by calling the methods.
-# Check which dog is bigger. Than add to this dog a characteristic ‘winner’ that is a Boolean.
 
-class Dog():
-    species = 'mammal'
+class Dog:
+    def __init__(self, name_dog, height_dog):
+        self.name = name_dog
+        self.height = height_dog
 
-    def __init__(self, name, height):
-        self.name = name
-        self.height = height
+    def talk(self):
+        return 'Woof'
+
+    def jump(self):
+        return f'{self.name} can jump {self.height *2} meters high'
+
+
+davids_dog = Dog("Rex", 0.50)
+davids_dog.jump()
+davids_dog.talk()
+sarahs_dog = Dog('Teacup', 0.20)
+sarahs_dog.jump()
+sarahs_dog.talk()
+
+
+def tallest_dog(*dogs):
+    tallest = 0
+    dogs = list(dogs)
+    for dog in dogs:
+        if dog.height > tallest:
+            tallest = dog.height
+            return f'The tallest dog is {tallest} meters tall'
+
+
+tallest_dog(davids_dog, sarahs_dog)
+
+# Exercise 3
+# Define a class called Song, it will show the lyrics of a song.
+# Its __init__() method should have two arguments:
+#
+# self
+# lyrics : a list.
+# Inside your class create a method called sing_me_a_song that prints each element of lyrics on his own line.
+# Define a varible:
+# happy_bday = Song(["Have a sunshine on you,",
+#                    "Happy Birthday to you !"])
+
+# Call the sing_me_song method on this variable.
+
+
+class Song:
+    def __init__(self, lyrics):
+        pass
+
+    def sing_me_a_song(self, lyrics):
+        happy_bday = Song(["Have a sunshine on you,", "Happy Birthday to you !"])
