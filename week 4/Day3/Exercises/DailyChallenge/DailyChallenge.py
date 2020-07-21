@@ -1,4 +1,4 @@
-users_string = input("please enter a sentance:")
+users_string = input("please enter a sentence:")
 action = input('please choose encrypt("e") or decrypt("d"):')
 letter_list = []
 outcome = ""
