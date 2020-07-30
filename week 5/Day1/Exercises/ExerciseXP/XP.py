@@ -1,62 +1,62 @@
 # Exercise 1:
 
 #
-# class Cat:
-#     species = 'mammal'
-#
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-#
-#     @staticmethod
-#     def oldest_cat(*cats):
-#         oldest = 0
-#         cats = list(cats)
-#         for cat in cats:
-#             if cat.age > oldest:
-#                 oldest = cat.age
-#         return f'The Oldest cat is {oldest} years old'
-#
-#
-# my_cat = Cat("Corey", 1)
-# gila_cat = Cat("Charlie", 7)
-# tzios_cat = Cat("Niki", 8)
-#
-# Cat.oldest_cat(my_cat, gila_cat, tzios_cat)
-#
+class Cat:
+    species = 'mammal'
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @staticmethod
+    def oldest_cat(*cats):
+        oldest = 0
+        cats = list(cats)
+        for cat in cats:
+            if cat.age > oldest:
+                oldest = cat.age
+        return f'The Oldest cat is {oldest} years old'
+
+
+my_cat = Cat("Corey", 1)
+gila_cat = Cat("Charlie", 7)
+tzios_cat = Cat("Niki", 8)
+
+Cat.oldest_cat(my_cat, gila_cat, tzios_cat)
+
 #
 # # Exercise 2
 #
-# class Dog:
-#     def __init__(self, name_dog, height_dog):
-#         self.name = name_dog
-#         self.height = height_dog
-#
-#     def talk(self):
-#         return 'Woof'
-#
-#     def jump(self):
-#         return f'{self.name} can jump {self.height *2} meters high'
-#
-#
-# davids_dog = Dog("Rex", 0.50)
-# davids_dog.jump()
-# davids_dog.talk()
-# sarahs_dog = Dog('Teacup', 0.20)
-# sarahs_dog.jump()
-# sarahs_dog.talk()
-#
-#
-# def tallest_dog(*dogs):
-#     tallest = 0
-#     dogs = list(dogs)
-#     for dog in dogs:
-#         if dog.height > tallest:
-#             tallest = dog.height
-#             return f'The tallest dog is {tallest} meters tall'
-#
-#
-# tallest_dog(davids_dog, sarahs_dog)
+class Dog:
+    def __init__(self, name_dog, height_dog):
+        self.name = name_dog
+        self.height = height_dog
+
+    def talk(self):
+        return 'Woof'
+
+    def jump(self):
+        return f'{self.name} can jump {self.height *2} meters high'
+
+
+davids_dog = Dog("Rex", 0.50)
+davids_dog.jump()
+davids_dog.talk()
+sarahs_dog = Dog('Teacup', 0.20)
+sarahs_dog.jump()
+sarahs_dog.talk()
+
+
+def tallest_dog(*dogs):
+    tallest = 0
+    dogs = list(dogs)
+    for dog in dogs:
+        if dog.height > tallest:
+            tallest = dog.height
+            return f'The tallest dog is {tallest} meters tall'
+
+
+tallest_dog(davids_dog, sarahs_dog)
 
 # Exercise 3
 # Define a class called Song, it will show the lyrics of a song.
@@ -72,17 +72,17 @@
 # Call the sing_me_song method on this variable.
 
 #
-# class Song:
-#     def __init__(self, lyrics):
-#         self.lyrics = lyrics
-#
-#     def sing_me_a_song(self):
-#         for strip in self.lyrics:
-#             print(strip)
-#
-#
-# happy_bday = Song(["Have a sunshine on you,", "Happy Birthday to you !"])
-# happy_bday.sing_me_a_song()
+class Song:
+    def __init__(self, lyrics):
+        self.lyrics = lyrics
+
+    def sing_me_a_song(self):
+        for strip in self.lyrics:
+            print(strip)
+
+
+happy_bday = Song(["Have a sunshine on you,", "Happy Birthday to you !"])
+happy_bday.sing_me_a_song()
 
 
 # Exercise 4
@@ -116,17 +116,24 @@ class Zoo:
 
     def sort_animal(self):
         self.animals.sort()
-        for letter in "ABC"
+
+    def sorted_to_dict(self):
+        alpha_list = []
+        for i in range(len(self.animals)):
+            alpha_list.append(i)
+        print(alpha_list)
 
 
 my_zoo = Zoo('Omris Zoo')
-
 my_zoo.add_animal("cheetah")
 my_zoo.add_animal("zebra")
 my_zoo.add_animal("monkey")
 my_zoo.add_animal("fish")
 my_zoo.add_animal("Lion")
-my_zoo.get_animals()
 
+my_zoo.get_animals()
 my_zoo.sell_animal('Lion')
 my_zoo.get_animals()
+
+my_zoo.sort_animal()
+my_zoo.sorted_to_dict()
