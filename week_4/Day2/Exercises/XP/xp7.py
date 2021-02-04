@@ -1,9 +1,9 @@
 # Exercise 7
 
-users = ["Omri", "Jason", "Jackie", "Tomer"]
-ages = []
-for usersage in users:
-    age = input("How old are you?")
-    ages.append(age)
-    print(age)
-    print(ages)
+colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+even_index_colors = []
+for count, i in enumerate(colors):
+    if count % 2 == 0:
+        even_index_colors.append(i)
+
+print(even_index_colors)

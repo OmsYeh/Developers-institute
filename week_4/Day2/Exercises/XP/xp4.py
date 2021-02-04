@@ -1,8 +1,14 @@
 # Exercise 4
-# Use a for loop to print the numbers from 1 to 20, inclusive.
+# 1. a float has a decimal place and a integer is a whole number
 
-l=[]
-for i in range(0,20):
-    i+= 1
-    l.append(i)
-print(l)
+# 2. by using a function that i can create
+
+# 3.  
+import decimal
+
+def float_range(start, stop, step):
+  while start < stop:
+    yield float(start)
+    start += decimal.Decimal(step)
+
+print(list(float_range(1, 20.5, '0.5')))

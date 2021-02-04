@@ -1,4 +1,9 @@
 # Exercise 9
-# Given a list, use a while loop to print out every elements from the end to the beginning.
 
-basket = ["Banana", "Apples", "Oranges", "Blueberries"]
+found_nums = []
+
+for i in range(1500,2700):
+	if (i%7 == 0) and (i%5 ==0):
+		found_nums.append(i)
+
+print(found_nums)
