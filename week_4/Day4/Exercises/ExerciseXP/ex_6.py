@@ -1,4 +1,4 @@
-# Exercise 4
+# Exercise 6
 # Make a list of magician’s names.
 # Pass the list to a function called show_magicians(), which prints the name of each magician in the list.
 # Write a function called make_great() that modifies the list of magicians by adding the phrase

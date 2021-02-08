@@ -1,4 +1,4 @@
-# Exercise 3
+# Exercise 5
 # Write a function called make_shirt() that accepts a size and the text of a
 # message that should be printed on the shirt.
 # The function should print a sentence summarizing the size of the shirt and the message printed on it.
@@ -9,7 +9,7 @@
 
 
 shirt_size = "Medium"
-shirt_print = "This Shirt is soooo dope!"
+shirt_print = "This Shirt is so dope!"
 
 
 def make_shirt(size="Large", text="I love Python"):

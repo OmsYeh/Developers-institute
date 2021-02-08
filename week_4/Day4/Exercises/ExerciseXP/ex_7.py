@@ -1,5 +1,4 @@
-# Exercise 6
-
+# Exercise 7
 
 def get_age(year, month, day):
     current_year = 2020

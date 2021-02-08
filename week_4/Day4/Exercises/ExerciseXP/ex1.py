@@ -5,7 +5,7 @@
 
 
 def display_message():
-    print("You will learn about pytohn in this section")
+    print("You will learn about python in this section")
 
 
 print(display_message())

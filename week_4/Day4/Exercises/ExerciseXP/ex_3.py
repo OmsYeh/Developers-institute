@@ -1,4 +1,4 @@
-# Exercise 5
+# Exercise 3
 # Write a function called describe_city() that accepts the name of a city and its country.
 # The function should print a simple sentence, such as “Reykjavik is in Iceland”.
 # Give the parameter for the country a default value.
