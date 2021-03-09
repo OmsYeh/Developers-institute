@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>list viewer</h1>
+
+    {% for item in ShoppingList %}
+        <h4> - {{ item.item }}</h4>
+        <p>{{ item.description }}</p>
+    {% endfor %}
 
 {% endblock content %}

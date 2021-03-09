@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="form-group col-7 mt-5">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn btn-outline-info" type="submit">Create new Entry</button>
+        </form>
+    </div>}
+
+{% endblock content %}
+
